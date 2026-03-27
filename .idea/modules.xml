@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BackendJavaAlura.iml" filepath="$PROJECT_DIR$/.idea/BackendJavaAlura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWord/HelloWord.iml" filepath="$PROJECT_DIR$/HelloWord/HelloWord.iml" />
     </modules>
   </component>
 </project>
