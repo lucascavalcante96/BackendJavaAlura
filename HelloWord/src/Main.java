@@ -17,5 +17,9 @@ public class Main {
 
         String sinopse = "Filme de aventura com galã dos anos 80.";
         System.out.println("Sinopse: " + sinopse);
+
+        int estrelas = (int) (media / 2);
+        System.out.println("Estrelas: " + estrelas);
     }
+
 }
