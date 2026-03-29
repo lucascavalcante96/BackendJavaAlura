@@ -9,5 +9,9 @@ public class Leitura {
         int anoLancamento = leitura.nextInt();
         System.out.println("Digite sua avaliação: ");
         double avaliacao = leitura.nextDouble();
+
+        System.out.println("Seu filme favorito é:" + nome);
+        System.out.println("O ano de lançamento foi: " + anoLancamento);
+        System.out.println("O avaliacao foi: " + avaliacao);
     }
 }
