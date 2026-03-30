@@ -1,11 +1,17 @@
 public class Filme {
     String nome;
-    int duracaoEmMinutos;
-    double somaDasAvaliacoes;
-    boolean incluidoNoPlano;
     int anoDeLancamento;
-    int totalDeAvaliacoes;
+    boolean incluidoNoPlano;
+    private double somaDasAvaliacoes;
+    private int totalDeAvaliacoes;
+    int duracaoEmMinutos;
 
+    int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
+    double getSomaDasAvaliacoes() {
+        return somaDasAvaliacoes;
+    }
     void exibeFichaTecnica(){
         System.out.println("Nome do Filme: " + nome);
         System.out.println("Ano de Lancamento: " + anoDeLancamento);
