@@ -5,5 +5,6 @@ public class Principal {
         meuFilme.duracaoEmMinutos = 180;
         meuFilme.anoDeLancamento = 1970;
 
+        meuFilme.exibeFichaTecnica();
     }
 }
