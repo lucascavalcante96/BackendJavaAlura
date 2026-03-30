@@ -1,9 +1,11 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class Principal {
     static void main() {
         Filme meuFilme = new Filme();
-        meuFilme.nome = "O poderoso chefão";
-        meuFilme.duracaoEmMinutos = 180;
-        meuFilme.anoDeLancamento = 1970;
+        meuFilme.setNome("O poderoso chefão");
+        meuFilme.setDuracaoEmMinutos(180);
+        meuFilme.setAnoDeLancamento(1970);
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
