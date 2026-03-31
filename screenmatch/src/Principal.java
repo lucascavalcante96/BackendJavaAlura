@@ -1,4 +1,5 @@
 import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Serie;
 
 public class Principal {
     static void main() {
@@ -15,5 +16,8 @@ public class Principal {
         System.out.println("Total de avaliações" + meuFilme.getTotalDeAvaliacoes());
         System.out.println(meuFilme.somaDasAvaliacoes);
         System.out.println(meuFilme.pegaMedia());
+
+        Serie lost = new Serie();
+        lost.setNome("Lost");
     }
 }
