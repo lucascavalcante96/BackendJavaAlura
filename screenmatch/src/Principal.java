@@ -26,8 +26,14 @@ public class Principal {
         lost.setMinutosPorEpsodio(50);
         System.out.println("Duração da Serie " + lost.getDuracaoEmMinutos());
 
+        Filme outroFilme = new Filme();
+        outroFilme.setNome("Avatar");
+        outroFilme.setDuracaoEmMinutos(200);
+        outroFilme.setAnoDeLancamento(2023);
+
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
         calculadora.inclui(meuFilme);
+        calculadora.inclui(outroFilme);
         System.out.println(calculadora.getTempoTotal());
     }
 }
