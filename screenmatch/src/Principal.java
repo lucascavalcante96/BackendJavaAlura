@@ -34,6 +34,7 @@ public class Principal {
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
         calculadora.inclui(meuFilme);
         calculadora.inclui(outroFilme);
+        calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
     }
 }
