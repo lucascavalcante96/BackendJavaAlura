@@ -31,5 +31,7 @@ public class TesteProduto extends Produto {
             System.out.println("Quantidade: " + lista.get(i).getQuantidade());
             System.out.println("Preco: " + lista.get(i).getPreco());
         }
+
+        System.out.println(samsung);
     }
 }
