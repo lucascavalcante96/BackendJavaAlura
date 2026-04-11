@@ -46,7 +46,7 @@ public class Titulo {
         System.out.println("Ano de Lancamento: " + anoDeLancamento);
     }
 
-    void avalia(double nota){
+    public void avalia(double nota){
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes ++;
     }
