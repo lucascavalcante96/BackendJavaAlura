@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class Principal {
     static void main() {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("O poderoso chefão");
+        Filme meuFilme = new Filme("O poderoso chefão");
+//        meuFilme.setNome("O poderoso chefão");
         meuFilme.setDuracaoEmMinutos(180);
         meuFilme.setAnoDeLancamento(1970);
 
@@ -30,8 +30,8 @@ public class Principal {
         lost.setMinutosPorEpsodio(50);
         System.out.println("Duração da Serie " + lost.getDuracaoEmMinutos());
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("Avatar");
+        Filme outroFilme = new Filme("Avatar");
+//        outroFilme.setNome("Avatar");
         outroFilme.setDuracaoEmMinutos(200);
         outroFilme.setAnoDeLancamento(2023);
 
@@ -51,8 +51,8 @@ public class Principal {
 
         filtro.filtra(epsodio);
 
-        var novoFilme = new Filme();
-        novoFilme.setNome("DogVille");
+        var novoFilme = new Filme("Dogville");
+//        novoFilme.setNome("DogVille");
         novoFilme.setDuracaoEmMinutos(200);
         novoFilme.setAnoDeLancamento(2003);
         novoFilme.avalia(10);
@@ -63,5 +63,6 @@ public class Principal {
         listaFilmes.add(outroFilme);
         System.out.println("tamanho da lista " + listaFilmes.size());
         System.out.println("Primeiro filme " +  listaFilmes.get(0).getNome());
+        System.out.println(listaFilmes);
     }
 }
