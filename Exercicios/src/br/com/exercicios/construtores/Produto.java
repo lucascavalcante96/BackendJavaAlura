@@ -5,6 +5,10 @@ public class Produto {
     private double preco;
     private int quantidade;
 
+    public Produto(String nome) {
+        this.nome = nome;
+    }
+
     public String getNome() {
         return nome;
     }

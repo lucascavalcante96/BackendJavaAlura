@@ -2,21 +2,19 @@ package br.com.exercicios.construtores;
 
 import java.util.ArrayList;
 
-public class TesteProduto extends Produto {
+public class TesteProduto{
+
     static void main() {
 
-        var iphone = new Produto();
-        iphone.setNome("Iphone 17");
+        var iphone = new Produto("Iphone 17");
         iphone.setQuantidade(10);
         iphone.setPreco(6599);
 
-        var samsung = new Produto();
-        samsung.setNome("galaxy 26");
+        var samsung = new Produto("galaxy 26");
         samsung.setQuantidade(15);
         samsung.setPreco(6499);
 
-        var xiaomi = new Produto();
-        xiaomi.setNome("Poco X7");
+        var xiaomi = new Produto("Poco X7");
         xiaomi.setQuantidade(9);
         xiaomi.setPreco(5999);
 
