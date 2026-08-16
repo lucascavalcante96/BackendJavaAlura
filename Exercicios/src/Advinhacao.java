@@ -13,7 +13,7 @@ public class Advinhacao {
             } else if (numero < numeroGerado) {
                 System.out.println("O número que você digitou é MENOR do que o Número Correto!");
             } else {
-                System.out.println("O número que você digitou é Maior que o Número Correto!");
+                System.out.println("O número que você digitou é MAIOR que o Número Correto!");
             }
             numero = input.nextInt();
         }
