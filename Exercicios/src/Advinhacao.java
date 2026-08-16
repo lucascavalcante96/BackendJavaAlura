@@ -11,7 +11,7 @@ public class Advinhacao {
             if (numero == numeroGerado) {
                 System.out.println("Parabéns você acertou !!!");
             } else if (numero < numeroGerado) {
-                System.out.println("O número que você digitou é menor do que o Número Correto!");
+                System.out.println("O número que você digitou é MENOR do que o Número Correto!");
             } else {
                 System.out.println("O número que você digitou é Maior que o Número Correto!");
             }
